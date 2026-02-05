@@ -1,5 +1,5 @@
 
-from fastapi import FastAPI
+from fastapi import FastAPI, UploadFile, File
 from rembg import remove
 from PIL import Image
 import io
